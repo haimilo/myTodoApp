@@ -26,9 +26,19 @@ form button {
   font-size: 2rem;
   border: none;
   background: white;
+  width: 180px;
+  transition: ease-in-out, width .35s ease-in-out;
 }
+
+form input:focus {
+  color: #ff6f47;
+  width: 350px;
+  outline: none;
+}
+
 form button {
   color: #ff6f47;
+  width: 50px;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
